@@ -8,3 +8,7 @@ def prime_fact(num):
 			prime_lst.append(i)
 		i += 1
 	return prime_lst
+
+user=int(input('enter a number: '))
+a=prime_fact(user)
+print(a)
