@@ -1,0 +1,7 @@
+def age_difference(f_age, s_age):
+
+
+    return abs(f_age-s_age*2)
+
+a=age_difference(55, 30)
+print(a)
